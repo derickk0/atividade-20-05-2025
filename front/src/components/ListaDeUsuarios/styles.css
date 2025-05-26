@@ -1,0 +1,22 @@
+/* src\components\ListaDeUsuarios\styles.css */
+
+.lista-usuarios li {
+  width: 220px;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e2e2e2e5;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  margin-right: 5px;
+}
+  
+.lista-usuarios li strong {
+  font-weight: bold;
+}
+
+.lista-usuarios{
+  height: 390px;
+  overflow-y: auto;
+}
